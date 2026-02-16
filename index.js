@@ -9,7 +9,7 @@ const productRoutes = require("./routes/productRoutes");
 const usersRoutes = require("./routes/userRoutes");
 
 const port = 7777;
-const hostname = "localhost";
+const hostname = "0.0.0.0";
 // http://localhost:7777
 app.use(
   cors({
